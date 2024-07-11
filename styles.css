@@ -1,0 +1,188 @@
+body{
+    font-family:"Roboto";
+}
+.navbar {
+    background-image:linear-gradient(rgb(203, 3, 253),rgb(129, 2, 241));
+}
+.Home{
+    background-image:linear-gradient(rgb(0, 191, 255),white,rgb(251, 255, 2));
+}
+.logo{
+    width:75px;
+    height:75px;
+    border-radius:50%;
+}
+.logo:hover{
+    transform:scale(1.05);
+    box-shadow:0px 0px 8px 8px indigo;
+}
+.img{
+    width:350px;
+    height:350px;
+    border-radius:50%;
+    padding:10px;
+    border: 10px solid  black;
+    box-shadow:2px 2px 10px 10px  rgb(12, 12, 12);
+}
+.img:hover{
+    transform:scale(1.05);
+    box-shadow:2px 2px 10px 10px  rgb(254, 1, 1);
+}
+.heading-name{
+    color:rgb(0, 8, 250);
+}
+.exp{
+    color:rgb(253, 3, 3);
+}
+.note{
+    color:rgb(0, 0, 0);
+    font-weight:bold;
+    font-style:italic;
+}
+.button-hire,.button-explore{
+    width:130px;
+    height:45px;
+    border:3px solid rgb(255,0,0);
+    background-color:rgb(255, 0, 0);
+    border-radius:5px;
+    padding:10px;
+}
+.link{
+    color:#ffffff;
+    text-decoration:none;
+}
+.link:hover{
+    color:#ffffff;
+    text-decoration:none;
+}
+.button-explore{
+    width:180px;
+    background-color: blue;
+    border:3px solid blue;
+}
+.button-hire:hover,.button-explore:hover{
+    transform:scale(1.025);
+    color:#ffffff;
+    text-decoration:none;
+}
+.About{
+    background-image:linear-gradient(to bottom,rgb(108, 74, 244),rgb(53, 5, 245));
+    color:aliceblue;
+}
+.heading{
+    font-size:56px;
+    font-style:italic;
+}
+.description{
+    font-size:24px;
+    color:white;
+}
+.course-heading{
+    font-size:40px;
+}
+.course-card{
+    background-image:linear-gradient(to top,rgb(0, 0, 0) ,rgb(75, 89, 102));
+    border-radius:10px;
+}
+.course-image{
+    border-radius:8px;
+    width:200px;
+    height:160px;
+}
+.bttn{
+    font-size:12px !important;
+    width:120px;
+    height:45px;
+    padding:20px;
+}
+.Certificates{
+    background-image:linear-gradient(to top,rgb(2, 98, 202) ,rgb(5, 150, 199));
+}
+.Projects {
+    background-image:linear-gradient(rgb(255, 255, 255),rgb(255, 3, 66));
+}
+.git-img {
+    width: 270px;
+    border-radius:50%;
+}
+.project-image{
+    width:350px;
+    height:300px;
+    border-radius:20px;
+}
+.project-image:hover{
+    transform:scale(1.05);
+}
+.project-section-mainheading {
+    font-size: 40px;
+    font-weight:bold;
+    font-style:italic;
+}
+.project-section-heading {
+    font-size: 36px;
+    font-weight:bold;
+    font-style:italic;
+}
+.project-sub-heading{
+    color:#ffffff;
+    font-size: 24px;
+    font-style:italic;
+    font-weight:bold;
+}
+.project-description {
+    color: #000000;
+    font-size: 18px;
+    font-style:italic;
+    font-weight:bold;
+}
+.Skills{
+    background-image:linear-gradient(rgb(113, 207, 238),rgb(180, 217, 244),rgb(255, 2, 95));
+  }
+.skill-title{
+    color:#000000 !important;
+}
+.skill-image{
+    border-radius:50%;
+    width:270px;
+    height:180px;
+}
+.Contact{
+    background-image:linear-gradient(rgb(114, 13, 230),rgb(18, 52, 204));
+}
+.contact-section-heading {
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+}
+.contact-section-icon-container {
+    background-color: #faf7e8;
+    width: 100px;
+    height: 100px;
+    border-radius:50%;
+    margin: 15px;
+    padding:25px;
+}
+.icon {
+    color: #000000;
+    font-size: 50px;
+}
+.fonts{
+    color:#ffffff;
+    font-size:30px;
+}
+.font-container{
+    background-color: #000000;
+    width: 60px;
+    height: 60px;
+    border-radius:50%;
+    margin: 5px;
+    padding:15px;
+}
+.paragraph{
+    color:#ffffff;
+    font-size:28px;
+}
+.icon:hover,.contact-section-icon-container:hover{
+    color:white;
+    background-color:#000000;
+}
